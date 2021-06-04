@@ -1,6 +1,6 @@
 {
   "author": "Zach Carter <zach@carter.name> (http://zaa.ch)",
-  "name": "jsonlint",
+  "name": "@sedlakr/jsonlint",
   "description": "Validate JSON",
   "keywords": [
     "json",
@@ -24,11 +24,12 @@
   "engines": {
     "node": ">= 0.6"
   },
-  "dependencies": {
-    "nomnom": "^1.5.x",
-    "JSV": "^4.0.x"
+  "resolutions": {
+    "**/underscore": "^1.13.1"
   },
   "devDependencies": {
+    "nomnom": "^1.5.x",
+    "JSV": "^4.0.x",
     "test": "*",
     "jison": "*",
     "uglify-js": "*"
