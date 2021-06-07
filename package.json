@@ -1,5 +1,5 @@
 {
-  "author": "Zach Carter <zach@carter.name> (http://zaa.ch)",
+  "author": "Radek Sedlak <sedlak.r@gmail.com>",
   "name": "@sedlakr/jsonlint",
   "description": "Validate JSON",
   "keywords": [
@@ -8,14 +8,14 @@
     "lint",
     "jsonlint"
   ],
-  "version": "1.6.3",
+  "version": "2.0.0",
   "preferGlobal": true,
   "repository": {
     "type": "git",
-    "url": "git://github.com/zaach/jsonlint.git"
+    "url": "git://github.com/sedlakr/jsonlint.git"
   },
   "bugs": {
-    "url": "http://github.com/zaach/jsonlint/issues"
+    "url": "https://github.com/sedlakr/jsonlint/issues"
   },
   "main": "lib/jsonlint.js",
   "bin": {
@@ -37,6 +37,6 @@
   "scripts": {
     "test": "node test/all-tests.js"
   },
-  "homepage": "http://zaach.github.com/jsonlint/",
+  "homepage": "https://github.com/sedlakr/jsonlint/",
   "optionalDependencies": {}
 }
