@@ -35,6 +35,7 @@
     "uglify-js": "*"
   },
   "scripts": {
+    "build": "node scripts/build.js",
     "test": "node test/all-tests.js"
   },
   "homepage": "https://github.com/sedlakr/jsonlint/",
